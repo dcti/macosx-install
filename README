@@ -1,0 +1,20 @@
+Built with PackageMaker included with XCode
+
+Requires 10.4+ ppc/intel
+
+Uninstall is provided by manual script (uninstall.sh)
+
+Installs to /Applications/distributed.net/
+
+Defaults to installing for startup (dnetc -install) and asking for
+configuration (dnetc -config) at install time. These are user
+selectable options.
+
+To build packages, the latest client should be in ../distributed.net
+and the resulting package should be named according the client used.
+Ideally a universal (ppc/x86/amd64) client would be chosen.
+
+Scripts for client install/uninstall/config are left in the installed
+directory, along with a package uninstaller which reverses everything
+done by the installing and removes the files. These can be run
+manually from the command line.
